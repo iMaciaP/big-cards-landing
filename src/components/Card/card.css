@@ -57,6 +57,7 @@
 .text {
   max-width: 540px;
   margin: 0 auto;
+  font-weight: bold;
   padding-top: 2em;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
 }
@@ -83,6 +84,11 @@
   outline: 2px solid rgba(153, 153, 153, 0.397);
   color: black;
   margin-top: 3px;
+}
+
+.logo{
+  max-width: 200px;
+  max-height: 58px;
 }
 
 .basr-social-share {
@@ -140,6 +146,10 @@
   width: 60px;
   height: 60px;
   line-height: 60px;
+}
+
+.social ul li a svg {
+  color: inherit;
 }
 
 .social ul li a:hover {

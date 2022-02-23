@@ -6,12 +6,9 @@ const Card = (props) => {
     return (
         <div className="flex" style={{ backgroundImage: `url(${props.image})` }}>
             <div className="infoWrapper">
-                {/* <div className="title" style={{ backgroundImage: `url(${props.logo})` }}>TEXT 1</div> */}
-                <div className="title">{props.title}</div>
+                {props.logo ? <img className='logo' src={props.logo} alt={props.title}></img> : <div className="title">{props.title}</div>}
                 <div className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                    tincidunt purus eget justo dignissim euismod. Donec non quam
-                    commodo, consequat orci nec...
+                    {props.desc}
                 </div>
             </div>
             <div className="more">Read More</div>
