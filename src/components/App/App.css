@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Arial";
+  color: #fff;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
