@@ -1,0 +1,7 @@
+.main {
+  position: "absolute" !important;
+  z-index: 9;
+  font-size: xx-large;
+  top: 50% !important;
+  cursor: "pointer";
+}

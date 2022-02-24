@@ -1,9 +1,4 @@
 @media only screen and (max-width: 800px) {
-  .container {
-    flex-direction: column;
-    height: 100%;
-  }
-
   .infoWrapper {
     margin-top: 10% !important;
   }
@@ -78,6 +73,10 @@
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .more:hover {
   background: #ffffff;
@@ -86,7 +85,7 @@
   margin-top: 3px;
 }
 
-.logo{
+.logo {
   max-width: 200px;
   max-height: 58px;
 }
