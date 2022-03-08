@@ -1,7 +1,22 @@
 .main {
-  position: "absolute" !important;
+  position: absolute !important;
   z-index: 9;
   font-size: xx-large;
   top: 50% !important;
-  cursor: "pointer";
+  cursor: pointer;
+  padding-left: 4px;
+  animation-iteration-count: infinite;
+  background-color: gray;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 8px;
+}
+
+
+.main:hover{
+  padding-left: 10px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }

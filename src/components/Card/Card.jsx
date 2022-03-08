@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Card = (props) => {
     const handleClick = () => {
-       document.location.href = './app-files/index.html';
+       document.location.href = props.tourLocation;
     };
     return (
         <div className="flex" style={{ backgroundImage: `url(${props.image})` }}>
@@ -13,7 +13,7 @@ const Card = (props) => {
                     {props.desc}
                 </div>
             </div>
-            <div className="more" onClick={handleClick}>Read More</div>
+            <div className="more" onClick={handleClick}>Començar Tour 360º</div>
             <div className="flexFooter">
                 <div className="basr-social-share social">
                     <ul>
